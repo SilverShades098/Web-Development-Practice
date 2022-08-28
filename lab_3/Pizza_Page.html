@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PIZZA</title>
+  </head>
+  <body >
+    <div style="background: black; height:400px; width:100%;padding-top:10px">
+      <form style="border:5px solid red; ">
+      <img src="1.jpg" alt="pic1" height="120px" width="140px">
+      <img src="2.jpg" alt="pic1" height="120px" width="140px">
+      <img src="3.jpg" alt="pic1" height="120px" width="140px">
+      <img src="4.jpg" alt="pic1" height="120px" width="140px">
+      </form>
+
+      <marquee style="background:yellow; color:red;font-family:'Roboto'">Order Delicious Pizza And Enjoy The Treat</marquee>
+      <marquee style="color:yellow;font-size:50px;font-family:'Roboto'">WELCOME TO PIZZA ORDER PAGE,PLEASE SELECT THE TYPE OF PIZZA</marquee>
+      <p style="color:white; padding-left:10px">Delivery address</p>
+      <p><label style="color:white; padding-left:10px">First name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input  id="a" required type="text"></label></p>
+      <p><label style="color:white; padding-left:10px">Last name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="b" ></label></p>
+      <p><label style="color:white; padding-left:10px">Street address:&nbsp;     <input type="text" id="c"></label></p>
+
+    </div>
+    <br>
+    <div style="background:grey; height:1300px; width:100%;padding-top:10px; padding-top:20x">
+      <p><label style="color:white; padding-left:10px">Suit/Apprt#:     <input type="number" id="a"></label></p>
+      <br>
+      <p><label style="color:white; padding-left:10px">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;<input type="text" id="b"></label></p>
+      <br>
+      <p><label style="color:white; padding-left:10px">State:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="c"></label></p>
+      <br>
+      <p><label style="color:white; padding-left:10px">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="d"></label></p>
+      <br>
+      <p><label style="color:white; padding-left:10px">Zip-code:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="e"></label></p>
+      <br>
+      <h2 style="color:RED">Payment Medthod</h2>
+      <br>
+      <p><label style="color:white; padding-left:10px;">card-type:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select class="cards" name="">
+<option value="saab">Visa</option>
+<option value="fiat">credit</option>
+<option value="audi">Debit</option>
+      </select></label></p>
+
+      <p><label style="color:white; padding-left:10px">Card Number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="e"></label></p>
+      <p><label style="color:white; padding-left:10px">Expiration Date:&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" id="e"></label></p>
+      <p><label style="color:white; padding-left:10px">Name of card:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="F"></label></p>
+      <p><label style="color:white; padding-left:10px">CNIC:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="e" max="13"></label></p>
+        <hr>
+        <h2 style="color:RED; padding-left:10px">Customize your piza</h2>
+        <p style="color:Yellow; padding-left:10px;font-SIZE:20PX">Pizza crust</p>
+        <form>
+          <input type="radio" name="Pi" value="hnd"> Hand Tossed
+         <input type="radio" name="age" value="o18"> Crunchy Thin Crust
+         <input type="radio" name="age" value="o18"> Brookyln Style
+        </form>
+
+          <p style="color:Yellow; padding-left:10px; font-SIZE:20PX">Pizza Size:&nbsp;&nbsp;&nbsp;&nbsp;<br>
+            <br>
+            <select class="cards" name="">
+    <option value="saab">Small</option>
+    <option value="fiat">Large</option>
+    <option value="audi">Extra large</option>
+          </select></p>
+
+
+        <p style="color:Yellow; padding-left:10px;font-SIZE:20PX">Slides:&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
+        <form>
+        <input type="radio" name="Pi" value="hnd"> BarbeQ
+         <input type="radio" name="age" value="o18"> garlic
+         <input type="radio" name="age" value="o18"> Minara
+                  <input type="radio" name="age" value="o18"> Ranch
+        </form>
+
+
+                <p style="color:Yellow; padding-left:10px;font-SIZE:20PX">Sause:&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
+                <form>
+                  <input type="radio" name="Pi" value="hnd"> Alferdo Pasta Sause
+                 <input type="radio" name="age" value="o18"> Crunchy Thin Crust
+                 <input type="radio" name="age" value="o18"> Brookyln Style
+                </form>
+
+
+                    <p style="color:Yellow; padding-left:10px;font-SIZE:20PX">Meat:&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                      <br><select>
+              <option value="sa">Bacon</option>
+              <option value="ft">Large</option>
+              <option value="au">small</option>
+                    </select></p>
+
+
+            <p style="color:Yellow; padding-left:10px;font-SIZE:20PX">Non-Meat:&nbsp;&nbsp;&nbsp;&nbsp;<br>
+              <br><select>
+                <option value="sa">Black olives</option>
+                <option value="ft">green Olive</option>
+                <option value="au">Cheese</option>
+              </select></p>
+    </div>
+    <br>
+    <div style="background:grey; height:400px; width:100%;padding-top:10px; padding-top:20x">
+      <h3 style="color:Yellow; padding-left:10px;">Quantity:&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="Quantity" max="10" min="1"></h3>
+            <h3 style="color:Yellow; padding-left:10px;">Other Choices OR Requirements:&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+            <textarea name="name" rows="10" cols="20" style="padding-left:20px"></textarea>
+            <br>
+            <input type="Button" name="" value="Clear order">
+            <input type="Button" name="" value="Place order">
+
+    </div>
+  </body>
+</html>

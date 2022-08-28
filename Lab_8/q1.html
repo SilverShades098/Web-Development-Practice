@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>onkeydown Event Handler  </title>
+<style>
+
+h1 {
+text-align: center;
+color: red;
+}
+
+h2 {
+text-align: center;
+}
+
+input[type=text] {
+width: 100%;
+padding: 14px 22px;
+margin: 7px 0;
+box-sizing: border-box;
+font-size: 22px;
+color: white;
+}
+
+p {
+font-size: 22px;
+}
+
+</style>
+
+<script>
+    
+    function func1() {
+    document.getElementById("demo").style.backgroundColor = "yellow";
+    }
+    
+    </script>
+    
+</head>
+
+<body>
+<h1>Event handler<h1>
+<h2>Output</h2>
+<p>Press the key to change the background color </p>
+<input type="text" id="demo" onkeydown="func1()">
+
+</body>
+
+</html>
